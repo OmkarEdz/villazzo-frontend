@@ -593,6 +593,150 @@ color: #fff;
 }
 
 
+buttons-wrap .sell-buy-rent-buttons {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+  margin-top: 280px;
+  flex-wrap: wrap;
+}
+.sell-search-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin-top: 150px;
+  flex-wrap: wrap;
+}
+.sell-search-container.buy {
+  margin-top: 100px;
+  width: 60%;
+}
+.selltxt {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 10px 10px #083054;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing:0.5px;
+  font-family: 'Lato', sans-serif;
+}
+h3.propertytxt {
+  font-size: 40px;
+  margin:0px 0px 20px 0px;
+  font-family: "Gotham Light", sans-serif !important;
+  text-shadow: 0px 10px 10px #083054;
+}
+.centered {
+  text-align: center;
+}
+.sell-search-box {
+  margin-top: 30px;
+  display: flex;
+  width: 65%;
+  position: relative;
+}
+.buy .sell-search-box {
+  width:50%;
+}
+.sell-search-box .fa-search {
+  font-size: 20px;
+  color:#555;
+  position:absolute;
+  left: 10px;
+  top: 10px;
+}
+.search-input {
+  background: #fff;
+  border:none;
+  width: 65%;
+  font-size: 16px;
+  color: #777675;
+  padding:10px 10px 10px 40px;
+}
+.search-input:focus {
+  outline: solid 2px #f7dd80;
+}
+.search-button {
+  width: 35%;
+  border:none;
+  color: #fff;
+  background: #f7dd80 !important;
+  cursor: pointer;
+  font-size: 16px;
+  padding:10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+}
+.search-icon-box {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.search-button.icon-btn {
+  padding:12px 20px;
+  display:block;
+  width:auto;
+}
+.search-button:hover{
+  color:#000;
+}
+.buy-search-box {
+  width:100%;
+  background-color: #fff;
+  padding:10px 20px 20px;
+  margin:20px 0px;
+}
+.buy-search-box label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.sell-btn {
+  width: 25%;
+  text-align: center;
+}
+.sell-btn a {
+  color: white;
+  text-decoration: none;
+  background-color: #f7dd7f;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition-duration: 0.5s;
+  letter-spacing:1px;
+  width:180px;
+  text-align: center;
+  display:inline-block;
+  font-family: 'Lato', sans-serif;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+}
+.sell-btn a:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+}
+.page_layout {
+  background: #fff;
+  display: block;
+  min-height: 940px;
+}
+.hideOnDesk {
+  display: none;
+}
+
+
 @media (min-width: 1580px){
   body .container {max-width: 1520px;}
   body .footer-images, body .footer-img span, body .footer-img .featured-img img {height: 100% !important;}
