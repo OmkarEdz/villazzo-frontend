@@ -220,6 +220,7 @@ img {
   text-transform: uppercase;
   margin: 0px;
   font-weight: 400;
+  letter-spacing: 0.4px;
 }
 .see-more-text p.drop-down, .visit-text p.drop-down {
   font-size: 14px;
@@ -227,6 +228,13 @@ img {
     line-height: 0;
   margin-left: 3px;
   margin-bottom: 0px;
+  text-align: right;
+}
+.visit-text p.drop-down {
+      width: 15px;
+}
+.see-more-text p.drop-down {
+  width: 20px;
 }
 .inquiry-wrap {
     padding-top: 25px;
@@ -244,7 +252,7 @@ img {
 }
 .inquiry a.desktop-inquiry-call {
       font-size: 25px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     display: inline-block;
     letter-spacing: 0.4px;
 }
@@ -253,6 +261,7 @@ img {
 }
 .navbar-expand-lg .navbar-nav {
   margin: auto;
+  padding: 2px 0px;
 }
 .nav-item {
   text-transform: uppercase;
