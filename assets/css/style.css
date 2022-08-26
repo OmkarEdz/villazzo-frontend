@@ -265,13 +265,17 @@ img {
 .navbar-expand-lg .navbar-nav {
   margin: auto;
   padding: 2px 0px;
+      justify-content: space-between;
+    align-items: center;
+    width: 1280px;
 }
 .nav-item {
   text-transform: uppercase;
   position: relative;
-      margin: 0 25px;
-    width: 280px;
+      margin: 0 20px;
+          width: 280px;
 }
+.nav-item:last-child {text-align: right;}
 .navbar-light .navbar-nav .nav-link, 
 .navbar-light .navbar-nav .show>.nav-link {
     color: #555;
@@ -312,6 +316,7 @@ img {
 }
 .dropdown-menu {
   transition-duration: 0.6s !important;
+       width: 190px !important;
 }
 .navbar-light .navbar-nav .nav-item:hover .dropdown-menu {
   display:block !important;
