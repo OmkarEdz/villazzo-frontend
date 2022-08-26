@@ -212,6 +212,9 @@ img {
   margin-top: 7px;
       align-items: center;
 }
+.visit-text {
+      padding-left: 3px;
+}
 .see-more-text p,
 .visit-text > p:first-child {
   color: #fff;
