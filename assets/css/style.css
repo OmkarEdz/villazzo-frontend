@@ -316,7 +316,10 @@ img {
 }
 .dropdown-menu {
   transition-duration: 0.6s !important;
-       width: 190px !important;
+  width: 255px!important;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 .navbar-light .navbar-nav .nav-item:hover .dropdown-menu {
   display:block !important;
