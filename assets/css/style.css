@@ -190,7 +190,7 @@ img {
   display: none;
 }
 .logo-wrap {
-  width: 30%;
+  width: 35%;
 }
 .villazzo-logo-wrap {
   width: 280px;
@@ -247,24 +247,30 @@ img {
 .nav-item {
   text-transform: uppercase;
   position: relative;
+      margin: 0 25px;
+    width: 280px;
 }
 .navbar-light .navbar-nav .nav-link, 
 .navbar-light .navbar-nav .show>.nav-link {
-  color: #555;
-  font-family: 'Gotham', sans-serif;
-  text-align: center !important;
-  padding:12px 60px !important;
-  position: relative;
-  font-weight: 500;
-  font-size:18px;
+    color: #555;
+    font-family: Gotham,sans-serif;
+    text-align: center!important;
+    padding: 20px 10px!important;
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 23px;
+}
+.navbar-light .navbar-nav .nav-link.showIcon {
+  padding-right: 30px !important;
 }
 .navbar-light .navbar-nav .nav-link.showIcon::after {
   content:"";
   width:27px;
-  height:25px;
+  height:26px;
   position: absolute;
-  margin-left:14px;
-  top:10px;
+  margin-left:10px;
+  top:17px;
   background: url('../images/villazzo-symbol.png') no-repeat;
 }
 .navbar-light .navbar-nav .nav-link:hover, 
@@ -297,14 +303,15 @@ img {
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.20);
 }
 .dropdown-item {
-  padding:10px 15px;
-  font-size:14px;
+  padding:18px 15px;
+  font-size:17px;
   border-bottom: solid 1px #f0e6c7;
   font-family: 'Gotham', sans-serif;
   text-align: center;
+  line-height: 18px;
 }
 .dropdown-item:hover {
-  color:#c8ad58;
+  color:#dac172;
   font-family: 'Gotham', sans-serif;
   background: none !important;
 }
@@ -343,34 +350,32 @@ img {
 /*<!-- Header css end here -->*/
 
 .buttons-wrap {
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  width: 80%;
-  margin-top: 260px;
-  flex-wrap: wrap;
+      display: flex;
+    justify-content: space-between;
+    width: 54%;
+    margin: 260px auto auto;
+    flex-wrap: wrap;
 }
-.sell-btn {
+/*.sell-btn {
   width: 25%;
   text-align: center;
-}
+}*/
 .sell-btn a {
-  color: #fff;
-  text-decoration: none;
-  background-color: #f7dd7f;
-  padding: 12px 0px;
-  font-size: 16px;
-  font-weight: 900;
-  text-transform: uppercase;
-  transition-duration: 0.5s;
-  letter-spacing:1px;
-  width:180px;
-  text-align: center;
-  display:inline-block;
-  font-family: 'Lato', sans-serif;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+color: #fff;
+    text-decoration: none;
+    background-color: #f7dd7f;
+    padding: 11px 30px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition-duration: .5s;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Lato,sans-serif;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    display: block;
+    line-height: 31px;
+    width: 237px;
 }
 .sell-btn a:hover {
   background-color: #fff;
