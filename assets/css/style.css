@@ -379,7 +379,7 @@ img {
 }
 /*<!-- Header css end here -->*/
 
-.buttons-wrap {
+.buttons-wrap .sell-buy-rent-buttons {
       display: flex;
     justify-content: space-between;
     width: 54%;
