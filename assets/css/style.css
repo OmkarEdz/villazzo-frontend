@@ -168,11 +168,11 @@ img {
 }
 .homepage-image span img {
   width: 100% !important;
-  height: 100% !important;
+  /*height: 100% !important;*/
   object-fit: cover !important;
 }
 .bg-img {
-  min-height: 1200px;
+  min-height: 1057px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -383,7 +383,7 @@ img {
       display: flex;
     justify-content: space-between;
     width: 54%;
-    margin: 450px auto auto;
+    margin: 355px auto auto;
     flex-wrap: wrap;
 }
 /*.sell-btn {
