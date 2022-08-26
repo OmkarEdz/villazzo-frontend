@@ -182,7 +182,7 @@ img {
 }
 .main-wrap {
   display: flex;
-  padding: 10px 0px;
+  padding: 12px 0px;
   align-items: center;
   justify-content: space-between;
 }
@@ -190,11 +190,10 @@ img {
   display: none;
 }
 .logo-wrap {
-  width: 55%;
-  padding-top: 15px;
-}
-.main-logo {
   width: 30%;
+}
+.villazzo-logo-wrap {
+  width: 280px;
   position: relative;
   display: block;
 }
@@ -206,25 +205,24 @@ img {
   width: 100% !important;
   height: 100%;
 }
-.visit-text {
+.see-more-text, .visit-text {
   display: flex;
-  margin-left: 50px;
-  margin-top: 5px;
-}
-.see-more-text {
-  display: flex;
-  margin-left: 30px;
+  justify-content: center;
   margin-top: 10px;
 }
-.see-more-text p {
-  color: white;
-  font-size: 12px;
-}
-.visit-text p {
-  color: white;
-  font-size: 12px;
+.see-more-text p,
+.visit-text > p:first-child {
+  color: #fff;
+  font-size: 14px;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
+  margin: 0px;
+}
+.see-more-text p.drop-down, .visit-text p.drop-down {
+  font-size: 20px;
+  line-height: 1;
+  margin-left: 10px;
+  margin-bottom: 0px;
 }
 .inqury-btn {
   display: flex;
@@ -232,10 +230,13 @@ img {
   font-family: 'Gotham Medium', sans-serif;
 }
 .inquiry a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-family: 'Gotham Light', sans-serif;
   font-size: 20px;
+}
+.inquiry a.desktop-inquiry-call {
+  font-size: 30px;
 }
 .navbar {
   padding:0px;
@@ -310,11 +311,8 @@ img {
 .dropdown-menu li:last-child .dropdown-item {
   border-bottom: none !important;
 }
-.drop-down {
-  margin-left: 5px;
-}
 .drop-down a {
-  color: white;
+  color: #fff;
 }
 .header-content {
   display: flex;
@@ -322,22 +320,22 @@ img {
   justify-content: space-between;
 }
 .inqury-btn a {
-  color: white;
-  text-decoration: none;
-  background-color: #f7dd7f;
-  padding: 12px 60px;
-  letter-spacing:1px;
-  font-size: 16px;
-  transition-duration: 0.5s;
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
+  color: #fff;
+    text-decoration: none;
+    background-color: #f7dd7f;
+    padding: 12px 77px;
+    font-size: 20px;
+    transition-duration: .5s;
+    font-family: Lato,sans-serif;
+    font-weight: 800;
+    line-height: 29px;
 }
 .inqury-btn a:hover {
   color: #000;
   background-color: #fff;
 }
 .bg-light {
-  background-color: #000 !important;
+  background-color: #f7dd80 !important;
 }
 .mb-inquiery {
   display: none;
@@ -357,7 +355,7 @@ img {
   text-align: center;
 }
 .sell-btn a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   background-color: #f7dd7f;
   padding: 12px 0px;
@@ -375,7 +373,7 @@ img {
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
 }
 .sell-btn a:hover {
-  background-color: white;
+  background-color: #fff;
   color: black;
   text-transform: uppercase;
 }
@@ -518,7 +516,7 @@ img {
 } */
 .footer-bottom {
   padding:10px 0px 10px;
-  background-color: white;
+  background-color: #fff;
 }
 .footer-page-links {
   display: flex;
@@ -546,6 +544,11 @@ img {
   font-family: "Lato", sans-serif;
   font-size: 13px;
   font-weight: 800;
+}
+
+
+@media (min-width: 1500px){
+  body .container {max-width: 1480px;}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -688,7 +691,7 @@ img {
     border-bottom: 1px solid #fff4cd;
   }
   .mb-drop a {
-    color: white !important;
+    color: #fff !important;
   }
   .nav-link {
     font-size: 14px;
