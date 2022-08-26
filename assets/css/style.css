@@ -425,7 +425,7 @@ color: #fff;
 }
 .footer-wrap {
   display: flex;
-  padding: 40px 0px 15px 0px;
+  padding:65px 0 60px;
   flex-wrap: wrap;
 }
 .footer-links {
@@ -443,7 +443,7 @@ color: #fff;
 .toll-wrap a {
   color: black;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
 }
 .toll-wrap a:hover {
   color:#f47421;
@@ -463,9 +463,12 @@ color: #fff;
 .navigate-sec1 {
   padding-bottom: 10px;
 }
+.connect-wrap {
+    padding-top: 30px;
+}
 .footer-icons {
   display: flex;
-  margin-top: 46px;
+  margin-top: 53px;
   align-items: center;
 }
 .footer-icons p {
@@ -478,13 +481,12 @@ color: #fff;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
 }
 .navigate-sec1 a:hover {
   text-decoration: underline;
   color: #f47421;
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
   font-weight: 600;
 }
 .footer-sec1 {
@@ -493,12 +495,23 @@ color: #fff;
 }
 .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p {
   font-family: 'Lato',sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
+}
+.footer-sec1 .toll-wrap p {
+  margin-bottom: 25px;
+}
+.footer-sec1 .toll-wrap p strong {margin-bottom: 15px;display: block;}
+.footer-sec1 .toll-wrap p br {display: none;}
+.footer-sec1 .toll-wrap p:last-child {
+    margin: 0px;
 }
 .navigate-wrap {
   width: 60%;
   padding-right: 60px;
+}
+.navigate-wrap p {
+  font-size: 18px;
 }
 .icons-wrap {
   margin-left: 20px;
