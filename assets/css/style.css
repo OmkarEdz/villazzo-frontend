@@ -182,7 +182,7 @@ img {
 }
 .main-wrap {
   display: flex;
-  padding: 12px 0px;
+  padding: 14px 0px 10px;
   align-items: center;
   justify-content: space-between;
 }
@@ -217,6 +217,7 @@ img {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin: 0px;
+  font-weight: 300;
 }
 .see-more-text p.drop-down, .visit-text p.drop-down {
   font-size: 20px;
