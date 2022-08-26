@@ -182,15 +182,16 @@ img {
 }
 .main-wrap {
   display: flex;
-  padding: 14px 0px 10px;
+  padding:14px 0;
   align-items: center;
   justify-content: space-between;
+      padding-left: 40px;
 }
 .mobile-nav {
   display: none;
 }
 .logo-wrap {
-  width: 35%;
+  width: 37%;
 }
 .villazzo-logo-wrap {
   width: 280px;
@@ -208,7 +209,8 @@ img {
 .see-more-text, .visit-text {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 7px;
+      align-items: center;
 }
 .see-more-text p,
 .visit-text > p:first-child {
@@ -217,13 +219,17 @@ img {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin: 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .see-more-text p.drop-down, .visit-text p.drop-down {
-  font-size: 20px;
-  line-height: 1;
-  margin-left: 10px;
+  font-size: 14px;
+      font-weight: 300;
+    line-height: 0;
+  margin-left: 3px;
   margin-bottom: 0px;
+}
+.inquiry-wrap {
+    padding-top: 25px;
 }
 .inqury-btn {
   display: flex;
@@ -237,7 +243,10 @@ img {
   font-size: 20px;
 }
 .inquiry a.desktop-inquiry-call {
-  font-size: 30px;
+      font-size: 25px;
+    margin-bottom: 7px;
+    display: inline-block;
+    letter-spacing: 0.4px;
 }
 .navbar {
   padding:0px;
@@ -553,8 +562,8 @@ color: #fff;
 }
 
 
-@media (min-width: 1500px){
-  body .container {max-width: 1480px;}
+@media (min-width: 1580px){
+  body .container {max-width: 1520px;}
 }
 
 @media only screen and (max-width: 1200px) {
