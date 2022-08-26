@@ -275,7 +275,6 @@ img {
       margin: 0 20px;
           width: 280px;
 }
-.nav-item:last-child {text-align: right;}
 .navbar-light .navbar-nav .nav-link, 
 .navbar-light .navbar-nav .show>.nav-link {
     color: #555;
@@ -287,6 +286,7 @@ img {
     font-size: 22px;
     line-height: 23px;
 }
+.nav-item:last-child a.nav-link{text-align: right;}
 .navbar-light .navbar-nav .nav-link.showIcon {
   padding-right: 30px !important;
 }
