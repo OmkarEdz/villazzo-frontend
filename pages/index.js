@@ -7,6 +7,7 @@ import Footer from "../components/footer"
 import { fetchAPI } from "../lib/api"
 import Image from "next/image"
 import { getStrapiMedia } from "../lib/media"
+import Link from 'next/link'
 
 const Home = ({
   global,
@@ -185,14 +186,17 @@ const Home = ({
           </nav>
         </header>
         <div className="buttons-wrap">
-          {homepage.attributes.homePageLinks.map((homePageLink, index) => (
-            <div
-              className="sell-btn"
-              key={`${index}homePageLinks${homePageLink.Label}`}
-            >
-              <a href="#">{homePageLink.Label}</a>
+           <div className="sell-buy-rent-buttons">
+                <div className="sell-btn">
+                  <Link href="/sell">SELL</Link>
+                </div>
+                <div className="sell-btn">
+                  <Link href="/buy">BUY</Link>
+                </div>
+                <div className="sell-btn">
+                  <Link href="/buy">RENT</Link>
+                </div>
             </div>
-          ))}
         </div>
       </div>
       <Footer footerProp={footerData} />
