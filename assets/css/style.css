@@ -782,6 +782,9 @@ h3.propertytxt {
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 12px;}
   .toll-wrap a {font-size: 14px;}
   .footer-icons {margin-top: 45px;}
+  .buy-search-box {margin: 40px 0 0;}
+  .search-button.icon-btn {padding: 12px 10px;width: 100%;}
+  .buy-search-box label, .form-control {font-size: 16px;}
 }
 
 @media only screen and (max-width: 1280px) {
@@ -790,6 +793,8 @@ h3.propertytxt {
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 10px;}
   .nav-item {width: auto;}
   .toll-wrap a {font-size: 12px;}
+  .buy-search-box label, .form-control {font-size: 14px;}
+  .inquiry-wrap {padding-top: 0px;}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -837,6 +842,7 @@ h3.propertytxt {
   .sell-search-box .fa-search {font-size: 16px;left: 10px;}
   .search-input {font-size: 16px;padding: 10px 15px 10px 35px;}
   .inquiry a.desktop-inquiry-call {font-size: 18px;}
+  .sell-search-container.buy {width: 75%;}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -860,7 +866,7 @@ h3.propertytxt {
   .footer-icons {margin-top: 0px;}
   .footer-bottom {padding: 5px 0;}
   .year {padding: 5px 20px;width: auto;}
-  .sell-search-container {max-width: 700px;width: 90%;}
+  .sell-search-container {max-width: 700px;width: 90% !important;}
   .inquiry a.desktop-inquiry-call {font-size: 14px;}
 }
 
@@ -982,6 +988,7 @@ h3.propertytxt {
   .mobile-nav {display: block;order: 2;}
   .navbar-light .navbar-toggler {color: rgb(247 221 128);border-color: rgb(247 221 128);}
   .sell-search-box {margin-top: 50px;}
+  .buy .sell-search-box {margin-bottom: 50px;}
   .inquiry a.desktop-inquiry-call, .see-more-text {display: none;}
   .mobile-inquiry-call {display: block;}
   .inquiry a {color: #f7dd7f;}
@@ -1012,6 +1019,10 @@ h3.propertytxt {
   .year {
     width: 25%;
   }
+  .row > div {margin: 5px 0px;}
+  .row > div.search-icon-box {margin-top: 30px;}
+  .search-button.icon-btn {display: none;}
+  .search-icon-box .search-button {width: 100%;display: block;}
 }
 
 @media only screen and (max-width: 580px) {
