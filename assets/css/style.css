@@ -766,6 +766,9 @@ h3.propertytxt {
   .nav-item {width: auto;}
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;line-height: 18px;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {width: 20px;background-size: contain;height: 20px;}
+  h3.propertytxt {font-size: 40px;line-height: 30px;}
+  .sell-search-box {margin-top: 70px;}
+  .selltxt {font-size: 20px;}
 }
 
 @media only screen and (max-width: 1400px) {
@@ -826,6 +829,13 @@ h3.propertytxt {
   .text-navigate {padding-bottom: 10px;margin-bottom: 10px;}
   .navigate-sec1 {padding-bottom: 15px;}
   .footer-icons {margin-top: 25px;}
+  .navigate-wrap {padding-right: 20px;}
+  .navigate-links {padding-top: 5px;}
+  h3.propertytxt {font-size: 30px;line-height: 20px;}
+  .selltxt {font-size: 16px;line-height: 26px;}
+  .search-button {font-size: 14px;}
+  .sell-search-box .fa-search {font-size: 16px;left: 10px;}
+  .search-input {font-size: 16px;padding: 10px 15px 10px 35px;}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -847,6 +857,9 @@ h3.propertytxt {
   .navbar-expand-lg .navbar-nav {width: 90%;}
   .buttons-wrap .sell-buy-rent-buttons {width: 75%;}
   .footer-icons {margin-top: 0px;}
+  .footer-bottom {padding: 5px 0;}
+  .year {padding: 5px 20px;width: auto;}
+  .sell-search-container {max-width: 700px;width: 90%;}
 }
 
 @media only screen and (max-width: 991px) {
@@ -861,17 +874,14 @@ h3.propertytxt {
     width: 100%;
   }
   .inquiry-wrap {
-    width: 300px;
-    padding-top: 10px;
+    width: auto;
+    padding-top: 0px;
   }
   .see-more-text {
     margin-top: 0px;
   }
   .inqury-btn a {
     padding:10px 30px;
-  }
-  .logo-wrap {
-    width: calc(100% - 250px);
   }
   .header-content {
     width: 250px;
@@ -929,10 +939,10 @@ h3.propertytxt {
     justify-content: center;
   }
   .main-logo {
-    width: 200px;
+    width: 140px;
   }
   .visit-text {
-    margin: 10px auto 0;
+    margin: 5px auto 0;
   }
   .hideOnDesk {
     display: block;
@@ -961,11 +971,15 @@ h3.propertytxt {
   .bg-img {
     min-height: 600px;
   }
+  .see-more-text p.drop-down, .visit-text p.drop-down {font-size: 12px;}
+  .mobile-nav {display: block;order: 2;}
+  .navbar-light .navbar-toggler {color: rgb(247 221 128);border-color: rgb(247 221 128);}
+  .sell-search-box {margin-top: 50px;}
 }
 
 @media only screen and (max-width: 768px) {
   .buttons-wrap {
-    margin-top: 170px;
+    margin-top: 70px;
   }
   .footer-links {
     width: 100%;
