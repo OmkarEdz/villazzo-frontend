@@ -608,7 +608,7 @@ buttons-wrap .sell-buy-rent-buttons {
   justify-content: center;
   align-items: center;
   width: 45%;
-  margin-top: 150px;
+  margin-top: 70px;
   flex-wrap: wrap;
 }
 .sell-search-container.buy {
@@ -618,32 +618,34 @@ buttons-wrap .sell-buy-rent-buttons {
 .selltxt {
   color: #fff;
   text-align: center;
-  text-shadow: 0px 10px 10px #083054;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 34px;
   letter-spacing:0.5px;
   font-family: 'Lato', sans-serif;
 }
 h3.propertytxt {
-  font-size: 40px;
-  margin:0px 0px 20px 0px;
+  font-size: 55px;
+  line-height: 45px;
+  margin:0px 0px 25px 0px;
   font-family: "Gotham Light", sans-serif !important;
-  text-shadow: 0px 10px 10px #083054;
+}
+.selltxt p {
+  margin: 0px;
 }
 .centered {
   text-align: center;
 }
 .sell-search-box {
-  margin-top: 30px;
+  margin-top: 110px;
   display: flex;
-  width: 65%;
+  width: 460px;
   position: relative;
 }
 .buy .sell-search-box {
   width:50%;
 }
 .sell-search-box .fa-search {
-  font-size: 20px;
+  font-size: 24px;
   color:#555;
   position:absolute;
   left: 10px;
@@ -655,24 +657,27 @@ h3.propertytxt {
   width: 65%;
   font-size: 16px;
   color: #777675;
-  padding:10px 10px 10px 40px;
+  padding:17px 20px 17px 50px;
 }
 .search-input:focus {
   outline: solid 2px #f7dd80;
 }
 .search-button {
-  width: 35%;
+  width: 40%;
   border:none;
   color: #fff;
   background: #f7dd80 !important;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   padding:10px;
   text-align: center;
   text-decoration: none;
   font-weight: 700;
   font-family: "Lato", sans-serif;
   letter-spacing: 1px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .search-icon-box {
   display: flex;
