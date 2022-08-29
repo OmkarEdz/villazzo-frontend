@@ -996,8 +996,8 @@ h3.propertytxt {
   .inquiry a {color: #f7dd7f;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {display: none;}
   .nav-item a i {margin-left: 10px;}
-  .dropdown-menu {border:unset;width: 100% !important;background: #e4ce7e;border-bottom: 1px solid #c9b363;}
-  .dropdown-menu .dropdown-item {padding: 14px 15px;font-size: 14px;text-align: left;box-shadow: unset;}
+  .dropdown-menu {border:unset;width: 100% !important;background: #e4ce7e;border-bottom: 1px solid #c9b363;box-shadow: unset;}
+  .dropdown-menu .dropdown-item {padding: 14px 15px;font-size: 14px;text-align: left;}
   .dropdown-menu li:last-child .dropdown-item {color: #1e2125;}
 }
 
