@@ -1218,6 +1218,7 @@ h3.propertytxt {
   .selltxt {font-size: 14px;line-height: 24px;}
   .buy-search-box {padding: 15px 20px;}
   .buy-search-box label, .form-control {font-size: 12px;}
+  .visit-text {display: none;}
 }
 
 @media only screen and (max-width: 430px) {
