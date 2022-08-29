@@ -54,7 +54,7 @@ const Buy = ({
                       <option value="any">Any</option>
                     </select>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-md-4">
                     <label className="">PRICE RANGE</label>
                     <Range
                       step={0.1}

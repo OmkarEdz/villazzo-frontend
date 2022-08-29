@@ -612,7 +612,7 @@ buttons-wrap .sell-buy-rent-buttons {
   flex-wrap: wrap;
 }
 .sell-search-container.buy {
-  margin-top: 100px;
+  margin-top: 65px;
   width: 60%;
 }
 .selltxt {
@@ -642,7 +642,7 @@ h3.propertytxt {
   position: relative;
 }
 .buy .sell-search-box {
-  width:50%;
+      margin-top: 55px;
 }
 .sell-search-box .fa-search {
   font-size: 24px;
@@ -682,6 +682,7 @@ h3.propertytxt {
     align-items: center;
     justify-content: center;
 }
+.search-icon-box .search-button.for-mobile {display: none;}
 .search-icon-box {
   display: flex;
   justify-content:center;
@@ -700,13 +701,15 @@ h3.propertytxt {
 .buy-search-box {
   width:100%;
   background-color: #fff;
-  padding:10px 20px 20px;
-  margin:20px 0px;
+  padding:25px 30px;
+  margin:75px 0 0;
 }
 .buy-search-box label {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #4c5557;
+    font-family: 'Lato', sans-serif;
 }
 .sell-btn {
   width: 25%;
