@@ -778,6 +778,7 @@ h3.propertytxt {
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;padding: 15px 10px!important;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 12px;}
   .toll-wrap a {font-size: 14px;}
+  .footer-icons {margin-top: 45px;}
 }
 
 @media only screen and (max-width: 1280px) {
@@ -785,6 +786,7 @@ h3.propertytxt {
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 16px;line-height: 16px;padding: 14px 10px!important;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 10px;}
   .nav-item {width: auto;}
+  .toll-wrap a {font-size: 12px;}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -804,7 +806,7 @@ h3.propertytxt {
     font-size: 16px;
   }
   .year a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .visit-text {
     padding-left: 0px
@@ -819,7 +821,11 @@ h3.propertytxt {
   .inqury-btn a {padding: 10px 40px;line-height: 14px;font-size: 14px;}
   .see-more-text p.drop-down, .visit-text p.drop-down {font-size: 12px;}
   .toll-wrap {width: 90%;}
-  .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 14px;}
+  .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 12px;}
+  .footer-sec1 .toll-wrap p {margin-bottom: 15px;}
+  .text-navigate {padding-bottom: 10px;margin-bottom: 10px;}
+  .navigate-sec1 {padding-bottom: 15px;}
+  .footer-icons {margin-top: 25px;}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -840,6 +846,7 @@ h3.propertytxt {
   .main-wrap {padding-left: 0px;}
   .navbar-expand-lg .navbar-nav {width: 90%;}
   .buttons-wrap .sell-buy-rent-buttons {width: 75%;}
+  .footer-icons {margin-top: 0px;}
 }
 
 @media only screen and (max-width: 991px) {
@@ -881,9 +888,6 @@ h3.propertytxt {
   }
   .nav-item {
     padding: 0px 0px;
-  }
-  .footer-icons {
-    margin-top: 37px;
   }
   .main-wrap {
     padding: 10px 20px;
@@ -974,7 +978,7 @@ h3.propertytxt {
   }
   .footer-images-wrap {
     width: 100%;
-    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .footer-images {
     padding-left: 0px;
@@ -1040,7 +1044,8 @@ h3.propertytxt {
     flex-grow: 1;
   }
   .footer-images-wrap {
-    padding-bottom: 8px;
+    padding-top:0px;
+        padding-bottom: 10px;
   }
   .footer-images {
     flex-direction: column;
