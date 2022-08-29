@@ -431,7 +431,7 @@ color: #fff;
 }
 .footer-links {
   display: flex;
-  width: 60%;
+  width: 55%;
 }
 .toll-wrap {
   margin: 0px;
@@ -528,10 +528,10 @@ color: #fff;
   justify-content: space-between;
 }
 .footer-images-wrap {
-  width: 40%;
+  width: 45%;
 }
 .footer-img {
-  width: 48%;
+  width: 47%;
   display: block;
   position: relative;
   border:solid 2px transparent;
@@ -717,7 +717,7 @@ h3.propertytxt {
   width: 25%;
   text-align: center;
 }
-.sell-btn a {
+/*.sell-btn a {
   color: white;
   text-decoration: none;
   background-color: #f7dd7f;
@@ -739,7 +739,7 @@ h3.propertytxt {
   background-color: white;
   color: black;
   text-transform: uppercase;
-}
+}*/
 .page_layout {
   background: #fff;
   display: block;
@@ -1055,7 +1055,7 @@ h3.propertytxt {
     font-size: 14px;
     font-weight: bold;
     letter-spacing:1px;
-    padding:7px 15px;
+    padding:10px 15px;
   }
   .inquiry-wrap {
     width: auto;
@@ -1244,8 +1244,7 @@ h3.propertytxt {
   .navigate-wrap {
     width: 100%;
   }
-  .footer-sec1 .toll-wrap {flex-direction: column;}
-  .footer-sec1 .toll-wrap p {font-size: 12px;width: 100%;margin-bottom: 20px;}
-  .footer-sec1 .toll-wrap p:nth-child(4) {margin-bottom: 20px;}
-  
+  /*.footer-sec1 .toll-wrap {flex-direction: column;}*/
+  .footer-sec1 .toll-wrap p {font-size: 10px;margin-bottom: 15px;}
+  .footer-sec1 .toll-wrap p a {font-size: 10px;}
 }
