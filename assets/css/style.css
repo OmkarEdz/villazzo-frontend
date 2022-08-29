@@ -1084,7 +1084,7 @@ h3.propertytxt {
   .logo-wrap {
     width:auto;
     order: 3;
-    padding: 8px 0px 3px;
+    padding: 8px 0px;
     flex-grow: 1;
   }
   .footer-images-wrap {
