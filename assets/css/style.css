@@ -772,6 +772,7 @@ h3.propertytxt {
   .navbar-expand-lg .navbar-nav {width: 900px;}
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 16px;line-height: 16px;padding: 14px 10px!important;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 10px;}
+  .nav-item {width: auto;}
 }
 
 @media only screen and (max-width: 1200px) {
