@@ -795,6 +795,7 @@ h3.propertytxt {
   .toll-wrap a {font-size: 12px;}
   .buy-search-box label, .form-control {font-size: 14px;}
   .inquiry-wrap {padding-top: 0px;}
+  .sell-search-container.buy {width: 65%;}
 }
 
 @media only screen and (max-width: 1200px) {
