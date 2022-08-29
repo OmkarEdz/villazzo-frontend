@@ -1176,6 +1176,8 @@ h3.propertytxt {
     padding: 12px 20px !important;
         font-size: 14px;
     line-height: 14px;
+    text-align: left;
+        border-bottom: 1px solid #c9b363;
   }
   .navbar-light .navbar-nav .nav-link .arrow {
     float:right;
@@ -1211,6 +1213,10 @@ h3.propertytxt {
   .year {width: 100%;padding: 3px 20px;}
   .buttons-wrap .sell-buy-rent-buttons {margin: 180px auto auto;}
   .navbar-expand-lg .navbar-nav {width: 100%;}
+  h3.propertytxt {margin: 0 0 10px;font-size: 22px;line-height: 30px;}
+  .selltxt {font-size: 14px;line-height: 24px;}
+  .buy-search-box {padding: 15px 20px;}
+  .buy-search-box label, .form-control {font-size: 12px;}
 }
 
 @media only screen and (max-width: 430px) {
