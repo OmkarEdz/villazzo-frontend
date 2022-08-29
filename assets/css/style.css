@@ -397,7 +397,7 @@ color: #fff;
     background-color: #f7dd7f;
     padding: 11px 30px;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
     transition-duration: .5s;
     letter-spacing: 1px;
@@ -713,11 +713,11 @@ h3.propertytxt {
     color: #4c5557;
     font-family: 'Lato', sans-serif;
 }
-.sell-btn {
+/*.sell-btn {
   width: 25%;
   text-align: center;
 }
-/*.sell-btn a {
+.sell-btn a {
   color: white;
   text-decoration: none;
   background-color: #f7dd7f;
@@ -770,6 +770,7 @@ h3.propertytxt {
   h3.propertytxt {font-size: 40px;line-height: 30px;}
   .sell-search-box {margin-top: 70px;}
   .selltxt {font-size: 20px;}
+  .sell-btn a {line-height: 20px;font-size: 16px;width: 180px;}
 }
 
 @media only screen and (max-width: 1400px) {
@@ -778,7 +779,6 @@ h3.propertytxt {
   .inquiry a.desktop-inquiry-call {font-size: 20px;margin-bottom: 0px;}
   .inqury-btn a {line-height: 20px;font-size: 16px;}
   .buttons-wrap .sell-buy-rent-buttons {margin: 210px auto auto;}
-  .sell-btn a {line-height: 20px;font-size: 16px;}
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;padding: 15px 10px!important;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 12px;}
   .toll-wrap a {font-size: 14px;}
@@ -996,6 +996,9 @@ h3.propertytxt {
   .inquiry a {color: #f7dd7f;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {display: none;}
   .nav-item a i {margin-left: 10px;}
+  .dropdown-menu {border:unset;width: 100% !important;background: #e4ce7e;border-bottom: 1px solid #c9b363;}
+  .dropdown-menu .dropdown-item {padding: 14px 15px;font-size: 14px;text-align: left;box-shadow: unset;}
+  .dropdown-menu li:last-child .dropdown-item {color: #1e2125;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -1026,9 +1029,6 @@ h3.propertytxt {
   .search-button.icon-btn {display: none;}
   .search-icon-box .search-button.for-mobile {width: 100%;display: block;}
   .sell-search-box {width: 100%;max-width: 460px;}
-  .dropdown-menu {border:unset;width: 100% !important;background: #e4ce7e;border-bottom: 1px solid #c9b363;}
-  .dropdown-menu .dropdown-item {padding: 14px 15px;font-size: 14px;}
-  .dropdown-menu li:last-child .dropdown-item {color: #1e2125;}
 }
 
 @media only screen and (max-width: 580px) {
