@@ -662,6 +662,7 @@ h3.propertytxt {
   font-size: 16px;
   color: #777675;
   padding:17px 20px 17px 50px;
+  border-radius: 0px;
 }
 .search-input:focus {
   outline: solid 2px #f7dd80;
@@ -1083,7 +1084,7 @@ h3.propertytxt {
   .logo-wrap {
     width:auto;
     order: 3;
-    padding: 8px 0px 0px;
+    padding: 8px 0px 3px;
     flex-grow: 1;
   }
   .footer-images-wrap {
