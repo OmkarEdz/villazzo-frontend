@@ -749,11 +749,13 @@ h3.propertytxt {
   display: none;
 }
 
+@media (min-width: 1750px){
+  body .footer-images, body .footer-img span, body .footer-img .featured-img img {height: 100% !important;}
+  body .footer-img .featured-img {height: 80%;}
+}
 
 @media (min-width: 1580px){
   body .container {max-width: 1520px;}
-  body .footer-images, body .footer-img span, body .footer-img .featured-img img {height: 100% !important;}
-  body .footer-img .featured-img {height: 80%;}
 }
 
 @media only screen and (max-width: 1750px) {
@@ -835,7 +837,7 @@ h3.propertytxt {
   .footer-sec1 .toll-wrap p {margin-bottom: 15px;}
   .text-navigate {padding-bottom: 10px;margin-bottom: 10px;}
   .navigate-sec1 {padding-bottom: 15px;}
-  .footer-icons {margin-top: 25px;}
+  .footer-icons {margin-top: 27px;}
   .navigate-wrap {padding-right: 20px;}
   .navigate-links {padding-top: 5px;}
   h3.propertytxt {font-size: 30px;line-height: 20px;}
