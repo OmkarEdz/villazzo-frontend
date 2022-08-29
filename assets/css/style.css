@@ -836,6 +836,7 @@ h3.propertytxt {
   .search-button {font-size: 14px;}
   .sell-search-box .fa-search {font-size: 16px;left: 10px;}
   .search-input {font-size: 16px;padding: 10px 15px 10px 35px;}
+  .inquiry a.desktop-inquiry-call {font-size: 18px;}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -860,6 +861,7 @@ h3.propertytxt {
   .footer-bottom {padding: 5px 0;}
   .year {padding: 5px 20px;width: auto;}
   .sell-search-container {max-width: 700px;width: 90%;}
+  .inquiry a.desktop-inquiry-call {font-size: 14px;}
 }
 
 @media only screen and (max-width: 991px) {
@@ -898,9 +900,13 @@ h3.propertytxt {
   }
   .nav-item {
     padding: 0px 0px;
+    width: 100%;
   }
   .main-wrap {
     padding: 10px 20px;
+  }
+  .logo-wrap {
+    width: calc(100% - 250px);
   }
   .mb-inquiery {
     display: block;
@@ -954,7 +960,8 @@ h3.propertytxt {
     padding-left: 0px;
   }
   .navbar-light .navbar-nav .nav-link {
-    border-bottom: 1px solid #fff4cd;
+    border-bottom: 1px solid #c9b363;
+    text-align: left !important;
   }
   .mb-drop a {
     color: #fff !important;
@@ -975,6 +982,11 @@ h3.propertytxt {
   .mobile-nav {display: block;order: 2;}
   .navbar-light .navbar-toggler {color: rgb(247 221 128);border-color: rgb(247 221 128);}
   .sell-search-box {margin-top: 50px;}
+  .inquiry a.desktop-inquiry-call, .see-more-text {display: none;}
+  .mobile-inquiry-call {display: block;}
+  .inquiry a {color: #f7dd7f;}
+  .navbar-light .navbar-nav .nav-link.showIcon:after {display: none;}
+  .nav-item a i {margin-left: 10px;}
 }
 
 @media only screen and (max-width: 768px) {
