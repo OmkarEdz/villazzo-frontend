@@ -467,7 +467,7 @@ color: #fff;
 }
 .footer-icons {
   display: flex;
-  margin-top: 60px;
+  margin-top: 32px;
   align-items: center;
 }
 .footer-icons p {
@@ -977,11 +977,11 @@ h3.propertytxt {
   .nav-link {
     font-size: 14px;
   }
-  .sell-btn {
+  /*.sell-btn {
     width: 28%;
-  }
+  }*/
   .sell-btn a {
-    width: 160px;
+    width: 120px;
   }
   .bg-img {
     min-height: 600px;
@@ -1084,7 +1084,7 @@ h3.propertytxt {
   .logo-wrap {
     width:auto;
     order: 3;
-    padding: 8px 0px;
+    padding: 8px 0px 10px;
     flex-grow: 1;
   }
   .footer-images-wrap {
@@ -1219,6 +1219,7 @@ h3.propertytxt {
   .buy-search-box {padding: 15px 20px;}
   .buy-search-box label, .form-control {font-size: 12px;}
   .visit-text {display: none;}
+  .sell-btn a {margin: 0 auto;width: 140px;}
 }
 
 @media only screen and (max-width: 430px) {
@@ -1246,5 +1247,6 @@ h3.propertytxt {
   }
   /*.footer-sec1 .toll-wrap {flex-direction: column;}*/
   .footer-sec1 .toll-wrap p {font-size: 10px;margin-bottom: 15px;}
+  .footer-sec1 .toll-wrap p strong {margin-bottom: 5px;}
   .footer-sec1 .toll-wrap p a {font-size: 10px;}
 }
