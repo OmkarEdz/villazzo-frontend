@@ -755,6 +755,12 @@ h3.propertytxt {
   body .footer-img .featured-img {height: 80%;}
 }
 
+@media only screen and (max-width: 1750px) {
+  .toll-wrap {width: 80%;}
+  .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 16px;}
+  .footer-icons {margin-top: 50px;}
+}
+
 @media only screen and (max-width: 1580px) {
   .navbar-expand-lg .navbar-nav {width: 1024px;}
   .nav-item {width: auto;}
@@ -771,6 +777,7 @@ h3.propertytxt {
   .sell-btn a {line-height: 20px;font-size: 16px;}
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;padding: 15px 10px!important;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 12px;}
+  .toll-wrap a {font-size: 14px;}
 }
 
 @media only screen and (max-width: 1280px) {
@@ -811,6 +818,8 @@ h3.propertytxt {
   .see-more-text p, .visit-text>p:first-child {font-size: 10px;}
   .inqury-btn a {padding: 10px 40px;line-height: 14px;font-size: 14px;}
   .see-more-text p.drop-down, .visit-text p.drop-down {font-size: 12px;}
+  .toll-wrap {width: 90%;}
+  .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 14px;}
 }
 
 @media only screen and (max-width: 1024px) {
