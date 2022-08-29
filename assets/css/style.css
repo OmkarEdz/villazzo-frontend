@@ -1023,7 +1023,11 @@ h3.propertytxt {
   .row > div {margin: 5px 0px;}
   .row > div.search-icon-box {margin-top: 30px;}
   .search-button.icon-btn {display: none;}
-  .search-icon-box .search-button {width: 100%;display: block;}
+  .search-icon-box .search-button.for-mobile {width: 100%;display: block;}
+  .sell-search-box {width: 100%;max-width: 460px;}
+  .dropdown-menu {border:unset;width: 100% !important;background: #e4ce7e;border-bottom: 1px solid #c9b363;}
+  .dropdown-menu .dropdown-item {padding: 14px 15px;font-size: 14px;}
+  .dropdown-menu li:last-child .dropdown-item {color: #1e2125;}
 }
 
 @media only screen and (max-width: 580px) {
@@ -1034,6 +1038,7 @@ h3.propertytxt {
     background-color:#fff;
     flex-wrap: wrap;
     padding: 0px !important;
+    max-width: 100%;
   }
   .navbar-light .navbar-nav .nav-item:hover .dropdown-menu {
     box-shadow:none !important;
@@ -1151,13 +1156,6 @@ h3.propertytxt {
     width: 100%;
     margin-bottom: 30px;
   }
-  .sell-btn a {
-    padding: 6px 30px;
-    width: 140px;
-    font-weight: 600;
-    letter-spacing:1px;
-    display: inline-block;
-  }
   .text-navigate {
     font-size: 12px;
   }
@@ -1174,8 +1172,10 @@ h3.propertytxt {
   .navigate-wrap {
     width: 100%;
   }
-  .navbar-light .navbar-nav .nav-link {
+  .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.showIcon, .dropdown-item {
     padding: 12px 20px !important;
+        font-size: 14px;
+    line-height: 14px;
   }
   .navbar-light .navbar-nav .nav-link .arrow {
     float:right;
@@ -1205,21 +1205,20 @@ h3.propertytxt {
     outline-width: 0px !important;
     border:none !important;
   }
+
+  .search-button {font-size: 12px;}
+  .footer-page-links {flex-wrap: wrap;}
+  .year {width: 100%;padding: 3px 20px;}
+  .buttons-wrap .sell-buy-rent-buttons {margin: 180px auto auto;}
+  .navbar-expand-lg .navbar-nav {width: 100%;}
 }
 
 @media only screen and (max-width: 430px) {
   .main-wrap {
     background-color: #fff;
   }
-  .footer-sec1 .toll-wrap p {
-    font-size: 12px;
-  }
   .header-content {
     width: 170px;
-  }
-  .bg-img, .homepage-image {
-    min-height: 600px;
-    height: 600px;
   }
   .visit-text p {
     margin-top: 0px;
@@ -1237,5 +1236,8 @@ h3.propertytxt {
   .navigate-wrap {
     width: 100%;
   }
+  .footer-sec1 .toll-wrap {flex-direction: column;}
+  .footer-sec1 .toll-wrap p {font-size: 12px;width: 100%;margin-bottom: 20px;}
+  .footer-sec1 .toll-wrap p:nth-child(4) {margin-bottom: 20px;}
   
 }
