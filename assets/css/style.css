@@ -168,7 +168,7 @@ img {
 }
 .homepage-image span img {
   width: 100% !important;
-  /*height: 100% !important;*/
+  height: 100% !important;
   object-fit: cover !important;
 }
 .bg-img {
@@ -224,6 +224,7 @@ img {
   margin: 0px;
   font-weight: 400;
   letter-spacing: 0.4px;
+  width: max-content;
 }
 .see-more-text p.drop-down, .visit-text p.drop-down {
   font-size: 14px;
@@ -752,6 +753,25 @@ h3.propertytxt {
   body .container {max-width: 1520px;}
   body .footer-images, body .footer-img span, body .footer-img .featured-img img {height: 100% !important;}
   body .footer-img .featured-img {height: 80%;}
+  .navbar-expand-lg .navbar-nav {width: 1024px;}
+  .nav-item {width: auto;}
+  .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;line-height: 18px;}
+  .navbar-light .navbar-nav .nav-link.showIcon:after {width: 20px;background-size: contain;height: 20px;}
+}
+
+@media only screen and (max-width: 1400px) {
+  .bg-img {min-height: 700px;}
+  .villazzo-logo-wrap {width: 200px;}
+  .inquiry a.desktop-inquiry-call {font-size: 20px;margin-bottom: 0px;}
+  .inqury-btn a {line-height: 20px;font-size: 16px;}
+  .buttons-wrap .sell-buy-rent-buttons {margin: 210px auto auto;}
+  .sell-btn a {line-height: 20px;font-size: 16px;}
+}
+
+@media only screen and (max-width: 1280px) {
+  .navbar-expand-lg .navbar-nav {width: 900px;}
+  .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 16px;line-height: 16px;padding: 14px 10px!important;}
+  .navbar-light .navbar-nav .nav-link.showIcon:after {top: 10px;}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -774,8 +794,17 @@ h3.propertytxt {
     font-size: 14px;
   }
   .visit-text {
-    margin-left: 25px;
+    padding-left: 0px
   }
+
+  .villazzo-logo-wrap {width: 150px;}
+  .navbar-expand-lg .navbar-nav {width: 700px;}
+  .nav-item {margin: 0;}
+  .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 14px;line-height: 14px;}
+  .sell-btn a {padding: 10px 0;width: 140px;font-size: 14px;line-height: 14px;}
+  .see-more-text p, .visit-text>p:first-child {font-size: 10px;}
+  .inqury-btn a {padding: 10px 40px;line-height: 14px;font-size: 14px;}
+  .see-more-text p.drop-down, .visit-text p.drop-down {font-size: 12px;}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -789,8 +818,13 @@ h3.propertytxt {
     padding-left: 20px;
   }
   .nav-item {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
+
+  .navbar-expand-lg .navbar-nav {padding: 0px;}
+  .main-wrap {padding-left: 0px;}
+  .navbar-expand-lg .navbar-nav {width: 90%;}
+  .buttons-wrap .sell-buy-rent-buttons {width: 75%;}
 }
 
 @media only screen and (max-width: 991px) {
