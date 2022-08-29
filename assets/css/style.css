@@ -467,7 +467,7 @@ color: #fff;
 }
 .footer-icons {
   display: flex;
-  margin-top: 32px;
+  margin-top: 62px;
   align-items: center;
 }
 .footer-icons p {
@@ -489,7 +489,7 @@ color: #fff;
   font-weight: 600;
 }
 .footer-sec1 {
-  width: 40%;
+  width: 50%;
   font-family: 'Lato',sans-serif;
 }
 .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p {
@@ -759,7 +759,7 @@ h3.propertytxt {
 @media only screen and (max-width: 1750px) {
   .toll-wrap {width: 80%;}
   .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 16px;}
-  .footer-icons {margin-top: 50px;}
+  .footer-icons {margin-top: 45px;}
 }
 
 @media only screen and (max-width: 1580px) {
@@ -865,7 +865,7 @@ h3.propertytxt {
   .main-wrap {padding-left: 0px;}
   .navbar-expand-lg .navbar-nav {width: 90%;}
   .buttons-wrap .sell-buy-rent-buttons {width: 75%;}
-  .footer-icons {margin-top: 0px;}
+  .footer-icons {margin-top: 30px;}
   .footer-bottom {padding: 5px 0;}
   .year {padding: 5px 20px;width: auto;}
   .sell-search-container {max-width: 700px;width: 90% !important;}
