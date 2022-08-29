@@ -753,6 +753,9 @@ h3.propertytxt {
   body .container {max-width: 1520px;}
   body .footer-images, body .footer-img span, body .footer-img .featured-img img {height: 100% !important;}
   body .footer-img .featured-img {height: 80%;}
+}
+
+@media only screen and (max-width: 1580px) {
   .navbar-expand-lg .navbar-nav {width: 1024px;}
   .nav-item {width: auto;}
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;line-height: 18px;}
@@ -766,10 +769,12 @@ h3.propertytxt {
   .inqury-btn a {line-height: 20px;font-size: 16px;}
   .buttons-wrap .sell-buy-rent-buttons {margin: 210px auto auto;}
   .sell-btn a {line-height: 20px;font-size: 16px;}
+  .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 18px;padding: 15px 10px!important;}
+  .navbar-light .navbar-nav .nav-link.showIcon:after {top: 12px;}
 }
 
 @media only screen and (max-width: 1280px) {
-  .navbar-expand-lg .navbar-nav {width: 900px;}
+  .navbar-expand-lg .navbar-nav {width: 980px;}
   .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {font-size: 16px;line-height: 16px;padding: 14px 10px!important;}
   .navbar-light .navbar-nav .nav-link.showIcon:after {top: 10px;}
   .nav-item {width: auto;}
