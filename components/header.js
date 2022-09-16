@@ -93,7 +93,7 @@ const Header = ({ navigation, global }) => {
 
             <div className="inquiry-wrap">
               <div className="inquiry">
-                <a href="tel:+1(305)777 0146" className="desktop-inquiry-call abc">+10 (877) VILLAZZO</a>
+                <a href="tel:+1(305)777 0146" className="desktop-inquiry-call abc">+100 (877) VILLAZZO</a>
                 <a href="tel:+1(305)777 0146" className="mobile-inquiry-call"><i className="fa fa-phone" aria-hidden="true"></i></a>
               </div>
               <div className="see-more-text">
