@@ -771,6 +771,7 @@ h3.propertytxt {
   .sell-search-box {margin-top: 70px;}
   .selltxt {font-size: 20px;}
   .sell-btn a {line-height: 20px;font-size: 16px;width: 180px;}
+  .icons-wrap a {padding: 0 7px;font-size: 20px;}
 }
 
 @media only screen and (max-width: 1400px) {
