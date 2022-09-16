@@ -369,8 +369,7 @@ img {
     line-height: 29px;
 }
 .inqury-btn a:hover {
-  color: #000;
-  background-color: #fff;
+  color: #000;background-color: #fff;
 }
 .bg-light {
   background-color: #f7dd80 !important;
