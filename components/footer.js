@@ -39,7 +39,7 @@ const Footer = ({ footerProp }) => {
                   </div>
                   <div className="connect-wrap">
                     <div className="footer-icons">
-                      <p>CONNECT:</p>
+                      <p>CONNECT</p>
                       <div className="icons-wrap">
                         {footerProp.attributes.socialConnect.map((value, index) => (
                           value.Account=='Email' ? <a href={value.URL} key={`footer-links${index}`}>
