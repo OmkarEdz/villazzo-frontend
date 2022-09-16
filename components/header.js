@@ -97,7 +97,7 @@ const Header = ({ navigation, global }) => {
                 <a href="tel:+1(305)777 0146" className="mobile-inquiry-call"><i className="fa fa-phone" aria-hidden="true"></i></a>
               </div>
               <div className="see-more-text">
-                <p>SEE MORE OPTION</p>
+                <p>SEE MORE OPTIONS</p>
                 <p className="drop-down">
                   <a href="#">
                     <i className="fa-solid fa-caret-down"></i>
