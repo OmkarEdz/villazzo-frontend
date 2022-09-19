@@ -1011,6 +1011,7 @@ h3.propertytxt {
   .navigate-wrap {width: 50%;}
   .footer-images-wrap {width: 100%;padding-top: 20px;}
   .footer-images {padding-left: 0px;}
+  .footer-icons {margin-top: 12px;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -1022,9 +1023,12 @@ h3.propertytxt {
   }
   .row > div {margin: 5px 0px;}
   .row > div.search-icon-box {margin-top: 30px;}
+  .sell-search-box {width: 100%;max-width: 460px;}
+}
+
+@media only screen and (max-width: 767px) {
   .search-button.icon-btn {display: none;}
   .search-icon-box .search-button.for-mobile {width: 100%;display: block;}
-  .sell-search-box {width: 100%;max-width: 460px;}
 }
 
 @media only screen and (max-width: 580px) {
