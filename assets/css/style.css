@@ -223,7 +223,7 @@ img {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin: 0px;
-  font-weight: 300;
+  font-weight: lighter;
   letter-spacing: 0.4px;
   width: max-content;
 }
@@ -254,7 +254,7 @@ img {
   text-decoration: none;
   font-family: 'Lato' ,sans-serif;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: lighter;
 }
 .inquiry a.desktop-inquiry-call {
       font-size: 25px;
