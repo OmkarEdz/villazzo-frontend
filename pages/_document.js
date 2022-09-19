@@ -4,8 +4,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <meta name="viewport" content="width=device-width" maximum-scale="1">
+        <Head>          
           {/* eslint-disable-next-line */}
         </Head>
         <body>
