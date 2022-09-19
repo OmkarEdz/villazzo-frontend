@@ -135,6 +135,18 @@ img:hover {
   font-style: italic;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('./webfonts/Lato-Light.eot');
+  src: url('./webfonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+      url('./webfonts/Lato-Light.woff2') format('woff2'),
+      url('./webfonts/Lato-Light.woff') format('woff'),
+      url('./webfonts/Lato-Light.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
 body {
   font-family: 'Gotham';
 }
