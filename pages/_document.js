@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta name="viewport" content="width=device-width" maximum-scale="1">
           {/* eslint-disable-next-line */}
         </Head>
         <body>
