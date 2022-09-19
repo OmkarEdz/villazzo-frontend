@@ -465,7 +465,7 @@ color: #fff;
 }
 .footer-icons {
   display: flex;
-  margin-top: 60px;
+  margin-top: 52px;
   align-items: center;
 }
 .footer-icons p {
@@ -502,6 +502,9 @@ color: #fff;
 .footer-sec1 .toll-wrap p br {display: none;}
 .footer-sec1 .toll-wrap p:last-child {
     margin: 0px;
+}
+.footer-sec1 .toll-wrap p:last-child a {
+  color: #212529;
 }
 .navigate-wrap {
   width: 60%;
@@ -759,7 +762,8 @@ h3.propertytxt {
 @media only screen and (max-width: 1750px) {
   .toll-wrap {width: 80%;}
   .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 16px;}
-  .footer-icons {margin-top: 45px;}
+  .footer-icons {margin-top: 35px;}
+  .sell-search-container.buy {width: 55%;}
 }
 
 @media only screen and (max-width: 1580px) {
