@@ -434,7 +434,7 @@ color: #fff;
 .toll-wrap {
   margin: 0px;
   font-family: 'Gotham', sans-serif;
-  width: 60%;
+  width: 65%;
 }
 .toll-wrap p {
   margin: 0px 0px 20px 0px;
@@ -518,7 +518,7 @@ color: #fff;
 }
 .icons-wrap a {
   padding: 0px 10px;
-  color: black;
+  color: #212529;
   font-size: 32px;
 }
 .icons-wrap a:hover {
@@ -762,8 +762,9 @@ h3.propertytxt {
 @media only screen and (max-width: 1750px) {
   .toll-wrap {width: 80%;}
   .footer-sec1 .toll-wrap, .footer-sec1 .toll-wrap p, .navigate-wrap p, .navigate-sec1 a, .toll-wrap a {font-size: 16px;}
-  .footer-icons {margin-top: 35px;}
+  .footer-icons {margin-top: 38px;}
   .sell-search-container.buy {width: 55%;}
+  .icons-wrap a {font-size: 26px;}
 }
 
 @media only screen and (max-width: 1580px) {
@@ -776,6 +777,7 @@ h3.propertytxt {
   .selltxt {font-size: 20px;}
   .sell-btn a {line-height: 20px;font-size: 16px;width: 180px;}
   .icons-wrap a {padding: 0 7px;font-size: 20px;}
+  .footer-icons {margin-top: 44px;}
 }
 
 @media only screen and (max-width: 1400px) {
@@ -1004,27 +1006,16 @@ h3.propertytxt {
   .dropdown-menu {border:unset;width: 100% !important;background: #e4ce7e;border-bottom: 1px solid #c9b363;box-shadow: unset;}
   .dropdown-menu .dropdown-item {padding: 14px 15px;font-size: 14px;text-align: left;}
   .dropdown-menu li:last-child .dropdown-item {color: #1e2125;}
+  .footer-links {width: 100%;}
+  .footer-sec1 {width: 50%;}
+  .navigate-wrap {width: 50%;}
+  .footer-images-wrap {width: 100%;padding-top: 20px;}
+  .footer-images {padding-left: 0px;}
 }
 
 @media only screen and (max-width: 768px) {
   .buttons-wrap {
     margin-top: 70px;
-  }
-  .footer-links {
-    width: 100%;
-  }
-  .footer-sec1 {
-    width: 50%;
-  }
-  .navigate-wrap {
-    width: 50%;
-  }
-  .footer-images-wrap {
-    width: 100%;
-    padding-top: 20px;
-  }
-  .footer-images {
-    padding-left: 0px;
   }
   .year {
     width: 25%;
