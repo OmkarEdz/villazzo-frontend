@@ -762,6 +762,7 @@ h3.propertytxt {
   body .footer-img .featured-img {height: 80%;}
   .navbar-expand-lg .navbar-nav li.nav-item:nth-child(2) {margin-right: 50px;}
   .navbar-expand-lg .navbar-nav li.nav-item:nth-child(3) {margin-right: 100px;}
+  .navbar-expand-lg .navbar-nav li.nav-item::last-child {width: max-content;}
   .footer-img {width: 49%;}
   .footer-images .footer-img:first-child {margin-right: 10px;}
   .footer-images .footer-img:last-child {margin-left: 10px;}
