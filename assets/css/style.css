@@ -639,7 +639,8 @@ h3.propertytxt {
   font-family: "Gotham Light", sans-serif !important;
 }
 .selltxt p {
-  margin: 0px;
+  margin: 0 auto;
+  max-width: 80%;
 }
 .centered {
   text-align: center;
@@ -720,6 +721,14 @@ h3.propertytxt {
     margin-bottom: 5px;
     color: #4c5557;
     font-family: 'Lato', sans-serif;
+}
+.buy-search-box .form-control {
+  border-radius: 2px;
+  border-color: #e1dfe0;
+  color:#b6babd;
+}
+.buy-search-box .form-control:placeholder {
+  color:#b6babd;
 }
 /*.sell-btn {
   width: 25%;
