@@ -382,7 +382,7 @@ img {
   color: #000;background-color: #fff;
 }
 .bg-light {
-  background-color: #f7dd80 !important;
+  background-color: #f8de7f !important;
 }
 .mb-inquiery {
   display: none;
@@ -678,13 +678,13 @@ h3.propertytxt {
   border-radius: 0px;
 }
 .search-input:focus {
-  outline: solid 2px #f7dd80;
+  outline: solid 2px #f8de7f;
 }
 .search-button {
   width: 40%;
   border:none;
   color: #fff;
-  background: #f7dd80 !important;
+  background: #f8de7f !important;
   cursor: pointer;
   font-size: 20px;
   padding:10px;
