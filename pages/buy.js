@@ -71,7 +71,7 @@ const Buy = ({
                             height: '4px',
                             width: '100%',
                             marginTop: '20px',
-                            backgroundColor: '#f7dd80'
+                            backgroundColor: '#f8de7f'
                           }}
                         >
                           {children}
@@ -86,7 +86,7 @@ const Buy = ({
                             width: '15px',
                             borderRadius: '25px',
                             backgroundColor: '#fff',
-                            borderColor:'#f7dd80',
+                            borderColor:'#f8de7f',
                             borderStyle:'solid',
                             borderWidth: '4px'
                           }}
