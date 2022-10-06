@@ -42,7 +42,7 @@ const Sell = ({
               <div className="sell-search-box">
                 <i className="fa fa-search" aria-hidden="true"></i>
                 <input type="text" className="search-input"/>
-                <Link href="/search">
+                <Link href="#">
                   <a className="search-button">MLS SEARCH</a>
                 </Link>
               </div>
