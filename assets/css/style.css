@@ -280,7 +280,7 @@ img {
 }
 .navbar-light .navbar-nav .nav-link, 
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #000;
+    color: #555;
     font-family: Gotham,sans-serif;
     text-align: center!important;
     padding: 20px 10px!important;
@@ -301,15 +301,14 @@ img {
   margin-left:8px;
   top:17px;
   background: url('../images/villazzo-symbol.png') no-repeat;
-  filter: brightness(0);
 }
 .navbar-light .navbar-nav .nav-link:hover, 
 .navbar-light .navbar-nav .show>.nav-link:hover{
-  color: #555;
+  color: #000;
   font-weight: 400;
 }
 .navbar-light .navbar-nav .nav-link:hover:after {
-  filter: unset;
+  filter: brightness(0);
 }
 @keyframes fadeIn {
 	0% {
