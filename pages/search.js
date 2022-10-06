@@ -37,7 +37,7 @@ const Search = ({
         </div>
         <Header navigation={navigation} global={global} />
         <div id="searchPage" className="page_layout">
-            <iframe id="_dsSearchAgent_Idx_Frame_0" name="_dsSearchAgent_Idx_Frame_0" src="https://idx.diversesolutions.com/link/477490#-" scrolling="no" style={{width: '100%', height: '940px', background: 'transparent', overflow: 'hidden'}} allowTransparency="true" frameBorder="0" seamless="seamless" mozAllowFullscreen="true" webkitAllowFullScreen="true" allowFullScreen="true" sandbox="allow-top-navigation allow-scripts allow-forms allow-modals allow-popups allow-same-origin"></iframe>
+            <iframe id="_dsSearchAgent_Idx_Frame_0" name="_dsSearchAgent_Idx_Frame_0" src="https://webdevfolio.com/test/buy_search_result_live.html#&PerformSearch&&MinBeds=1&MinBaths=1&MinImprovedSqFt=0&MinPrice=100000&MaxPrice=200000&" scrolling="no" style={{width: '100%', height: '940px', background: 'transparent', overflow: 'hidden'}} allowTransparency="true" frameBorder="0" seamless="seamless" mozAllowFullscreen="true" webkitAllowFullScreen="true" allowFullScreen="true" sandbox="allow-top-navigation allow-scripts allow-forms allow-modals allow-popups allow-same-origin"></iframe>
         </div>
       </div>
       <Footer footerProp={footerData} />
