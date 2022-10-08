@@ -86,7 +86,7 @@ const Buy = ({ global, homepage, footerData, navigation }) => {
                       <option value="10">Vacation/Time-Share</option>
                     </select>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-md-4">
                     <label className="">PRICE RANGE</label>
                     <Range
                       step={100}
