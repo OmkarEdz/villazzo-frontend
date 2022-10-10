@@ -102,7 +102,7 @@ const Buy = ({ global, homepage, footerData, navigation }) => {
                             ...props.style,
                             height: "4px",
                             width: "100%",
-                            marginTop: "20px",
+                            marginTop: "10px",
                             backgroundColor: "#f7dd80",
                           }}
                         >
@@ -125,7 +125,7 @@ const Buy = ({ global, homepage, footerData, navigation }) => {
                         />
                       )}
                     />
-                    <output style={{ marginTop: "5px", float:"right", fontSize:"14px",color:"#888" }} id="output">
+                    <output style={{ marginTop: "5px", float:"right" }} id="output">
                       {currencyFormat(state.values[0])}
                     </output>
                   </div>

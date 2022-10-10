@@ -768,6 +768,15 @@ h3.propertytxt {
 .hideOnDesk {
   display: none;
 }
+#output {
+  font-size: 18px;
+  color: #b5babc;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Lato";
+}
 
 @media (min-width: 1860px){
   body .footer-img .featured-img {height: 340px !important;}
