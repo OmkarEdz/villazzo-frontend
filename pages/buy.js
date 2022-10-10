@@ -44,6 +44,7 @@ const Buy = ({ global, homepage, footerData, navigation }) => {
           />
         </div>
         <Header navigation={navigation} global={global} />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
         <div className="buttons-wrap">
           <div className="sell-search-container buy">
             <div className="selltxt">
@@ -67,7 +68,7 @@ const Buy = ({ global, homepage, footerData, navigation }) => {
                       placeholder="CITY, REGION"
                     />
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-md-3 prop_type">
                     <label className="">PROPERTY TYPE</label>
                     <select
                       className="form-control"
@@ -102,7 +103,7 @@ const Buy = ({ global, homepage, footerData, navigation }) => {
                             ...props.style,
                             height: "4px",
                             width: "100%",
-                            marginTop: "10px",
+                            marginTop: "15px",
                             backgroundColor: "#f7dd80",
                           }}
                         >

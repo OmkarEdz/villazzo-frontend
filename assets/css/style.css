@@ -719,20 +719,44 @@ h3.propertytxt {
   margin:75px 0 0;
 }
 .buy-search-box label {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #4c5557;
-    font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+  font-family: "Lato";
+  margin-bottom: 10px;
 }
 .buy-search-box .form-control {
   border-radius: 2px;
   border-color: #e1dfe0;
-  color:#b6babd;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1;
   text-transform: uppercase;
+  color: #b5babc;
+  font-weight: 700;
+  font-family: "Lato";
+  padding: 13px 20px;
+  height: 50px;
 }
-.buy-search-box .form-control:placeholder {
-  color:#b6babd !important;
+.prop_type {
+  position: relative;
+}
+.prop_type:after {
+  content: '\f078';
+  position: absolute;
+  font-family: 'FontAwesome';
+  right: 30px;
+  bottom: 13px;
+  color: #b5babc;
+}
+.buy-search-box select.form-control{
+  padding-right: 40px;
+}
+.buy-search-box .form-control::placeholder {
+  color:#b6babd;
 }
 /*.sell-btn {
   width: 25%;
