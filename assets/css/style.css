@@ -699,8 +699,8 @@ h3.propertytxt {
 .search-icon-box .search-button.for-mobile {display: none;}
 .search-icon-box {
   display: flex;
-  justify-content:center;
-  align-items: center;
+  justify-content:flex-end;
+  align-items: flex-end;
   flex-direction: column;
   flex: 1;
 }
