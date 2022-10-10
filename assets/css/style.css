@@ -729,9 +729,10 @@ h3.propertytxt {
   border-radius: 2px;
   border-color: #e1dfe0;
   color:#b6babd;
+  text-transform: uppercase;
 }
 .buy-search-box .form-control:placeholder {
-  color:#b6babd;
+  color:#b6babd !important;
 }
 /*.sell-btn {
   width: 25%;
