@@ -758,6 +758,10 @@ h3.propertytxt {
 .buy-search-box .form-control::placeholder {
   color:#b6babd;
 }
+.buy-search-box select.form-control:focus {
+  outline: 0px;
+  box-shadow: unset;
+}
 /*.sell-btn {
   width: 25%;
   text-align: center;
