@@ -690,7 +690,7 @@ h3.propertytxt {
   text-align: center;
   text-decoration: none;
   font-weight: 800;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   letter-spacing: 1.5px;
       display: flex;
     align-items: center;
@@ -725,7 +725,7 @@ h3.propertytxt {
   text-transform: uppercase;
   color: #222222;
   font-weight: 700;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   margin-bottom: 10px;
 }
 .buy-search-box .form-control {
@@ -737,7 +737,7 @@ h3.propertytxt {
   text-transform: uppercase;
   color: #b5babc;
   font-weight: 700;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   padding: 13px 20px;
   height: 50px;
 }
@@ -804,7 +804,7 @@ h3.propertytxt {
   line-height: 25px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 @media (min-width: 1860px){
