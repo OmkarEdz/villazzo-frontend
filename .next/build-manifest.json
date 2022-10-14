@@ -24,9 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/team": [
-      "static/chunks/webpack.js",
+    ]
+  },
+  "ampFirstPages": []
+}c/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/team.js"
     ]
