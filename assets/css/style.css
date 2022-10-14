@@ -227,6 +227,9 @@ img {
   letter-spacing: 0.4px;
   width: max-content;
 }
+.bg-white .see-more-text p, .bg-white .visit-text > p:first-child, .bg-white .inquiry a, .bg-white .drop-down a {
+  color:#000;
+}
 .see-more-text p.drop-down, .visit-text p.drop-down {
   font-size: 14px;
       font-weight: 300;
@@ -806,6 +809,61 @@ h3.propertytxt {
   font-weight: 700;
   font-family: "Lato", sans-serif;
 }
+
+/*TeamInside css start*/
+.meet-wrap{display: flex;justify-content: space-between;flex-wrap: wrap;margin: 35px 0px 60px;width: 100%;}
+.team-heading{text-align: center;font-size: 55px;font-weight: 300;border-bottom: 3px solid #f7dd80;width: 100%;margin-top: 50px;padding-bottom: 25px;}
+.meet-left{width: 30%;text-align: center;}
+.meet-right{width: 67%;}
+.meet-right p{font-size: 22px;}
+.meet-left .meet-left-img{border-radius: 50%;overflow: auto;padding: 0px 35px;width: 250px;margin: auto;margin-bottom: 20px;}
+.meet-left .meet-left-img span {position: unset !important;}
+.meet-left .meet-left-img img{width: 100%;}
+.meet-left-name{font-size: 28px;text-transform: uppercase;}
+.broker, .number, .email{font-size: 22px;text-align: center;margin-bottom: 0px;font-weight: 400;}
+.number, .email{border-bottom: 1px solid #212529;text-decoration: none;color: #212529;display: block;max-width: max-content;margin: auto;}
+.property-wrap{display: flex;justify-content: space-between;flex-wrap: wrap;margin-top: 40px;}
+.property-box{width: 32%;text-align: center;margin-bottom: 40px;}
+.pro-name{font-size: 28px;margin-top: 25px;text-transform: uppercase;}
+.pro-text {font-size: 22px;}
+.property-box img{width: 100%;}
+.properties{width: 100%;}
+.contact-btn{width: 100%;display: flex;justify-content: center;}
+.contact-btn a{margin-bottom: 40px;margin-top: 0px;font-size: 20px;border: 1px solid #f7dd7f;}
+.find-hotel {text-align: center;}
+.find-hotel a{text-decoration: none;color: #212529;margin:0 auto 40px;font-size: 22px;border-bottom: 1px solid #212529;display: inline-block;font-weight: 500;}
+.team{border-bottom: unset;padding-bottom: 0px;margin-bottom: 15px;}
+.team-wrap{display: flex;justify-content: space-between;margin:0 auto 100px;width: 1200px;}
+.main-team{width: 100%;margin: auto;}
+.banner-img span {position: relative !important;}
+.banner-img img{width: 100% !important;}
+.mobile {display: none !important;}
+/*TeamInside css End*/
+
+/*reviews css start*/
+.bg-img.reviews_pg_wrap {min-height: unset;}
+.slider-wrapper{width: 40%;margin: auto;}
+.sliderHeader{font-size: 55px;margin: 50px 0px;text-align: center;font-weight: 300;}
+.slider-content p{font-size: 22px;text-align: center;}
+.slider-wrapper .slick-next:before, .slider-wrapper .slick-prev:before{color: #000;}
+.slider-wrapper .slick-prev:before{content: '\f104';font-family: 'FontAwesome';font-size: 60px;width: 100%;background-repeat: no-repeat;}
+.slider-wrapper .slick-next:before {content: '\f105';font-family: 'FontAwesome';font-size: 60px;width: 100%;background-repeat: no-repeat;}
+.slider-wrapper .slick-next, .slider-wrapper .slick-prev{top: 30%;}
+.slider-wrapper .slick-prev {left: -100px;}
+.slider-wrapper .slick-next{right: -100px;}
+.slider-wrapper .slick-next:before, .slider-wrapper .slick-prev:before{opacity: .6}
+.slider-wrapper .slick-dots li.slick-active button:before{color: #f7dd7f;font-size: 17px !important;}
+.slider-wrapper .slick-dots li button:before{font-size: 10px;color: #f7dd7f;opacity: .6;}
+.slider-wrapper #slick-slide-control06:before, .slider-wrapper #slick-slide-control00:before{font-size: 5px;}
+.slider-wrapper #slick-slide-control05:before, .slider-wrapper #slick-slide-control01:before{font-size: 7px;}
+.slider-wrapper #slick-slide-control02:before, .slider-wrapper #slick-slide-control04:before{font-size: 9px;}
+.slider-wrapper .slick-dots li{width: 17px;height: 17px;}
+.read-reviews{text-align: center;margin:80px auto 50px;}
+.read-reviews a{background-color: #f7dd7f;border: 1px solid #f7dd7f;text-decoration: none;color: white;padding: 7px 20px;font-size: 20px;transition-duration: .5s;font-family: 'Gotham',sans-serif;font-weight: 500;line-height: 29px;display: inline-block;}
+.read-reviews a:hover{background-color: #fff;border-color: #000;color: #000;}
+.slider-wrapper .slick-dots li{margin: 0px;}
+/*reviews css end*/
+
 
 @media (min-width: 1860px){
   body .footer-img .featured-img {height: 340px !important;}
