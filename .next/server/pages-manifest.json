@@ -1,6 +1,13 @@
 {
-  "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/category/[slug]": "pages/category/[slug].js",
+  "/article/[slug]": "pages/article/[slug].js",
+  "/search": "pages/search.js",
+  "/reviews": "pages/reviews.js",
+  "/": "pages/index.js",
   "/_error": "pages/_error.js",
+  "/buy": "pages/buy.js",
+  "/sell": "pages/sell.js",
+  "/_app": "pages/_app.js",
   "/team": "pages/team.js"
 }

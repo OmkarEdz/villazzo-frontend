@@ -1,34 +1,92 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/HrUcElyW0VUrKQDQJCh9F/_buildManifest.js",
+    "static/HrUcElyW0VUrKQDQJCh9F/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/pages/index-d73e833fb29d56cf.js"
+    ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/css/034bdc9d335622aa.css",
+      "static/chunks/pages/_app-a05938fe45a76581.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/pages/_error-a4ba2246ff8fb532.js"
+    ],
+    "/article/[slug]": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/75fc9c18-e61c2e0d9c9a0957.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/806-ae88793f0455c059.js",
+      "static/chunks/pages/article/[slug]-3aef0b064c5d6acb.js"
+    ],
+    "/buy": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/821-2db85d6cfca43615.js",
+      "static/chunks/447-21df9f21600faeea.js",
+      "static/chunks/pages/buy-8410681181856e59.js"
+    ],
+    "/category/[slug]": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/pages/category/[slug]-4436e84030c394f0.js"
+    ],
+    "/reviews": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/66-448bd93783ae6aab.js",
+      "static/chunks/447-21df9f21600faeea.js",
+      "static/chunks/pages/reviews-9fddb9864f08b084.js"
+    ],
+    "/search": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/447-21df9f21600faeea.js",
+      "static/chunks/pages/search-45358c66edb29869.js"
+    ],
+    "/sell": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/447-21df9f21600faeea.js",
+      "static/chunks/pages/sell-f318ea0be01c3da7.js"
     ],
     "/team": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/team.js"
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-5b6d74750cc42009.js",
+      "static/chunks/main-0a8d4b186a2397c5.js",
+      "static/chunks/61-177c59da2975f3fd.js",
+      "static/chunks/447-21df9f21600faeea.js",
+      "static/chunks/pages/team-8fd2618496667f35.js"
     ]
   },
   "ampFirstPages": []
