@@ -817,7 +817,7 @@ h3.propertytxt {
 .meet-right{width: 67%;}
 .meet-right p{font-size: 22px;}
 .meet-left .meet-left-img{border-radius: 50%;overflow: auto;padding: 0px 35px;width: 250px;margin: auto;margin-bottom: 20px;}
-.meet-left .meet-left-img span {position: unset !important;display: block !important;overflow: hidden;border-radius: 50%;}
+.meet-left .meet-left-img span {position: unset !important;display: block !important;overflow: hidden;border-radius: 50%;width: 221px;height: 221px;}
 .meet-left .meet-left-img img{width: 100% !important;}
 .meet-left-name{font-size: 28px;text-transform: uppercase;}
 .broker, .number, .email{font-size: 22px;text-align: center;margin-bottom: 0px;font-weight: 400;}
