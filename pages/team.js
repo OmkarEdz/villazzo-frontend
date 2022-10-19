@@ -31,7 +31,7 @@ const Teams = ({
             <h1 className="team-heading team">MEET THE TEAM</h1>
             <div className="meet-wrap">
               {mainMembersList.map((element) => (
-              <div className="meet-left main-team">
+              <div key={mainMembersList.key} className="meet-left main-team">
                 <p className="meet-left-img">
                   <Image
                     loader={myLoader}

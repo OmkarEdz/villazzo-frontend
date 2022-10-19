@@ -39,7 +39,7 @@ const TeamsInside = ({
 						<a className="email" href="javascript:;">lisa.blake@villazo.com</a>
 					</div>
 					<div className="meet-right">
-						<p> I make it a priority to help all of my clients & their families succeed. Real Estate is a lifestyle, and I'm passionate about helping everyone successfully find & secure their new home or to rent/sell their property to move on to new adventures. After all, your home is one of the most important aspects of your life. I specialize in luxury homes & condominiums throughout Miami Beach, Downtown / Brickell, Coconut Grove and Coral Gables. Fluent in both English & Spanish. Contact me to discuss further and move forward with your next Real Estate adventure. </p>
+						<p> I make it a priority to help all of my clients their families succeed. Real Estate is a lifestyle, and Im passionate about helping everyone successfully find secure their new home or to rent/sell their property to move on to new adventures. After all, your home is one of the most important aspects of your life. I specialize in luxury homes condominiums throughout Miami Beach, Downtown / Brickell, Coconut Grove and Coral Gables. Fluent in both English Spanish. Contact me to discuss further and move forward with your next Real Estate adventure. </p>
 					</div>
 				</div>
 				<div className="properties">
